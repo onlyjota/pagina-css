@@ -1,0 +1,66 @@
+:root {
+    --jet: #353535ff;
+    --caribbean-current: #3c6e71ff;
+    --white: #ffffffff;
+}
+body {
+    background-color: #e4e4e4; 
+}
+/* Barra de navegación */
+.navbar-brand {
+    font-size: 2rem; 
+}
+.navbar {
+    background-color: var(--jet);
+    padding: 1rem 0;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-color: var(--white);
+    background-color: transparent;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--caribbean-current);
+}
+/* Contenido de la página */
+.container {
+    color: var(--jet);
+}
+h1 {
+    font-size: 2.5rem;
+}
+/* Contenedor de la galería */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem; 
+}
+/* Diseño inicio */
+h1.display-4 {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    margin-bottom: 1rem; 
+}
+h2.display-5 {
+    font-size: 2.5rem;
+    font-weight: bold; 
+    margin-bottom: 4rem;
+}
+p.lead {
+    font-size: 1.2rem;
+    line-height: 1.5; 
+}
+p.lead_1 {
+    font-size: 1.2rem;
+    line-height: 1.5;   
+    margin-bottom: 4rem;
+}
